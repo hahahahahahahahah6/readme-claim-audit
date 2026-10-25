@@ -1,0 +1,3 @@
+include .gitignore
+recursive-include examples *.md *.toml *.py Makefile
+recursive-include tests *.py
