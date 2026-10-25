@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "readme-claim-audit"
+version = "0.1.0"
+description = "Deterministic offline README claim auditing"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+
+[project.scripts]
+readme-claim-audit = "readme_claim_audit.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
