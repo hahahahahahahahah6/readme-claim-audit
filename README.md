@@ -8,7 +8,7 @@ or repository code execution. Changes nothing.
 pip install readme-claim-audit
 readme-claim-audit audit . --json
 readme-claim-audit audit . --fail-on medium --ignore 'old-*' --ignore 'legacy/*'
-python -m build
+python3 -m build
 ```
 
 The repository argument defaults to the current directory. Exit codes: 0 PASS,
